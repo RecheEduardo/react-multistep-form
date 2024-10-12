@@ -1,0 +1,12 @@
+.rating{
+    cursor: pointer;
+}
+
+input[type="radio"] + label {
+    transition: .5s;
+}
+
+input[type="radio"]:checked + label {
+    color: var(--bs-blue);
+    transition: .25s;
+}

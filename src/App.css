@@ -1,0 +1,43 @@
+.indentify, .avaliation, .send{
+    width: 30%;
+}
+
+.main-content{
+    min-height: 94svh;
+    animation: fadeInUp 1s;
+}
+
+@media(min-width: 992px){
+    .form-top{
+        margin-inline: 100px;
+    }
+    .form-container{
+        padding-inline: 200px !important;
+    }
+}
+
+.fade-in{
+    animation: fadeIn .75s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        scale: 0.97;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
